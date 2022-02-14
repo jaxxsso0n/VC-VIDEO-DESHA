@@ -87,7 +87,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 البشمبرمج", url="https://t.me/DeshaXBlacck"
+                        "البشمبرمج جاكسون 🌐", url="https://t.me/J_X_S1"
                     )
                 ],
             ]
@@ -110,7 +110,7 @@ async def alive(c: Client, message: Message):
             [
                 InlineKeyboardButton("✨ جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 قناة السورس", url=f"https://t.me/music_Desha1"
+                    "📣 قناة السورس", url=f"https://t.me/J_X_S3"
                 ),
             ]
         ]
@@ -131,7 +131,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `البينج مظبوط يديشا!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `البينج مظبوط يجاكسون!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
@@ -175,8 +175,8 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/music_Desha1"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/music_Desha")
+                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/J_X_S3"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/J_X_S9")
                         ],
                         [
                             InlineKeyboardButton("👤 حساب المساعد", url=f"https://t.me/{ass_uname}")
